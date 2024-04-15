@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertSame;
 
 
 @ExtendWith(MockitoExtension.class)
-public class ProduitServiceImplMockTest {
+public class ProduitServiceImplJunitTest {
 
 
     @Mock

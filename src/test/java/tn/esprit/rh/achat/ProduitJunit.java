@@ -14,7 +14,7 @@ import java.util.List;
 @SpringBootTest
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 
-public class ProduitJunitTest {
+public class ProduitJunit {
     @Autowired
     private ProduitServiceImpl produitService;
 
