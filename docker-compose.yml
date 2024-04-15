@@ -29,6 +29,12 @@ services:
       }'
     stdin_open: true
     tty: true
-
+  frontend:
+    image: docker.pkg.github.com/meriamabidi/devopsprojet/frontend:latest
+    restart: unless-stopped
+    ports:
+      - 4401:4401
+    depends_on:
+      - app-achat
 volumes:
   db:
